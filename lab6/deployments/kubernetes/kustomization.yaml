@@ -1,0 +1,7 @@
+resources:
+  - ./dashboard.yaml
+  - ./metrics.yaml
+  - ./deployment.yaml
+  - ./service.yaml
+  - ./autoscaling.yaml
+  - ./config.yaml
