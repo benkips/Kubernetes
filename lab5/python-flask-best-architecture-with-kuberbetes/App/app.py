@@ -20,3 +20,11 @@ def hello():
 def check():
     return "ok", 200
 
+@app.route("/livez")
+def livez():
+    return "ok", 200
+
+@app.route("/readyz")
+def readyz():
+    return "ok", 200
+
